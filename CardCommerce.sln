@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{D926741B-1F1E-4DC8-9625-14E207DF98DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C795DC18-9387-4968-8C0F-58DF117BC244}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FB0090C8-DEEB-441A-AFD0-991D9A0F3C8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardCommerce", "app\CardCommerce\CardCommerce.csproj", "{3ED25587-F24D-4D8B-8D6C-0CB8BB9876AB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5150B294-2723-4714-8D63-792FA0448B84} = {5150B294-2723-4714-8D63-792FA0448B84}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardCommerce.Core", "src\CardCommerce.Core\CardCommerce.Core.csproj", "{5150B294-2723-4714-8D63-792FA0448B84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardCommerce.Core.Tests", "test\CardCommerce.Core.Tests\CardCommerce.Core.Tests.csproj", "{8E135D39-6F5F-432A-9D9F-3740D5C97E4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardCommerce.Migrations", "app\CardCommerce.Migrations\CardCommerce.Migrations.csproj", "{E7EB4E5A-314F-4F21-A8A0-3C678985EAC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ED25587-F24D-4D8B-8D6C-0CB8BB9876AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED25587-F24D-4D8B-8D6C-0CB8BB9876AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED25587-F24D-4D8B-8D6C-0CB8BB9876AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED25587-F24D-4D8B-8D6C-0CB8BB9876AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5150B294-2723-4714-8D63-792FA0448B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5150B294-2723-4714-8D63-792FA0448B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5150B294-2723-4714-8D63-792FA0448B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5150B294-2723-4714-8D63-792FA0448B84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E135D39-6F5F-432A-9D9F-3740D5C97E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E135D39-6F5F-432A-9D9F-3740D5C97E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E135D39-6F5F-432A-9D9F-3740D5C97E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E135D39-6F5F-432A-9D9F-3740D5C97E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7EB4E5A-314F-4F21-A8A0-3C678985EAC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7EB4E5A-314F-4F21-A8A0-3C678985EAC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7EB4E5A-314F-4F21-A8A0-3C678985EAC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7EB4E5A-314F-4F21-A8A0-3C678985EAC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3ED25587-F24D-4D8B-8D6C-0CB8BB9876AB} = {D926741B-1F1E-4DC8-9625-14E207DF98DB}
+		{5150B294-2723-4714-8D63-792FA0448B84} = {C795DC18-9387-4968-8C0F-58DF117BC244}
+		{8E135D39-6F5F-432A-9D9F-3740D5C97E4D} = {FB0090C8-DEEB-441A-AFD0-991D9A0F3C8F}
+		{E7EB4E5A-314F-4F21-A8A0-3C678985EAC8} = {D926741B-1F1E-4DC8-9625-14E207DF98DB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBA4C90C-3D81-4279-B375-653F297192AD}
+	EndGlobalSection
+EndGlobal

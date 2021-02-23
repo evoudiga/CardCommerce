@@ -35,17 +35,11 @@ namespace CardCommerce
                 AggregateAmount = 900M,
                 CreatedDate = DateTimeOffset.Now.Date.ToString("yyyy-MM-dd")
             });
-            var tmp_limit0 = card1.Trn.LimitAm0
+          
 
             dbContext.Add(card1); 
             dbContext.SaveChanges();
-
-            if (card1.Trn.LimitAm0 <= 500M &&)
-
-
-
-
-
+         
         }
     }
 }
